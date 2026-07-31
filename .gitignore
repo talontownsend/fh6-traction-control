@@ -1,0 +1,29 @@
+# Everything under data/ is generated at runtime, never program input:
+# telemetry recordings, the rolling log, the persisted tune, this rig's pad
+# calibration and GUI preferences. The code recreates the directory on demand
+# (os.makedirs(REC_DIR, exist_ok=True) before every write), so a fresh clone
+# needs nothing seeded here.
+#
+# Two of these are actively harmful to ship: tc_padmap.json would override
+# DEFAULT_PADMAP with one specific controller's axis mapping, and tc_tune.json
+# would override the in-code PID defaults for everyone who clones.
+data/
+
+__pycache__/
+*.pyc
+
+# Python virtual environments (the launchers probe .venv\Scripts\pythonw.exe)
+.venv/
+venv/
+env/
+
+# Stray desktop captures at the repo root. docs/*.png is intentional and kept.
+/Screenshot*.png
+
+# Build output. build/fh6tc.spec is the recipe and IS tracked; everything
+# PyInstaller generates is not.
+dist/
+build/work/
+build/_smoke*
+*.manifest
+build/out/

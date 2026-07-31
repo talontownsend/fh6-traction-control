@@ -1,0 +1,120 @@
+FH6 TC
+THIRD PARTY NOTICES
+
+FH6 TC includes or depends on the software listed below. Each component
+remains the property of its authors and is used under its own license. These
+notices are reproduced to satisfy those licenses; nothing here grants you any
+right to the components beyond what their own licenses give you.
+
+
+=============================================================================
+1. ViGEm Client Library (ViGEmClient.dll)
+   Copyright (c) 2017-2020 Nefarius Software Solutions e.U.
+   https://github.com/nefarius/ViGEmClient
+
+   INCLUDED IN THIS DISTRIBUTION. FH6 TC ships ViGEmClient.dll, the user-mode
+   library used to create and drive the virtual game controller.
+
+   Licensed under the BSD 3-Clause License:
+
+   Redistribution and use in source and binary forms, with or without
+   modification, are permitted provided that the following conditions are met:
+
+   1. Redistributions of source code must retain the above copyright notice,
+      this list of conditions and the following disclaimer.
+
+   2. Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in the
+      documentation and/or other materials provided with the distribution.
+
+   3. Neither the name of the copyright holder nor the names of its
+      contributors may be used to endorse or promote products derived from
+      this software without specific prior written permission.
+
+   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+   AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+   IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+   ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+   LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+   CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+   SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+   INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+   CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+   ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+   POSSIBILITY OF SUCH DAMAGE.
+
+   Note on attribution: condition 3 above means FH6 TC must not be presented
+   as endorsed by Nefarius Software Solutions e.U. It is not.
+
+
+=============================================================================
+2. vgamepad
+   Copyright (c) 2020 Yann Bouteiller
+   https://github.com/yannbouteiller/vgamepad
+
+   INCLUDED IN THIS DISTRIBUTION. FH6 TC uses vgamepad, the Python binding
+   that drives the ViGEm client library.
+
+   Licensed under the MIT License:
+
+   Permission is hereby granted, free of charge, to any person obtaining a
+   copy of this software and associated documentation files (the "Software"),
+   to deal in the Software without restriction, including without limitation
+   the rights to use, copy, modify, merge, publish, distribute, sublicense,
+   and/or sell copies of the Software, and to permit persons to whom the
+   Software is furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in
+   all copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+   DEALINGS IN THE SOFTWARE.
+
+
+=============================================================================
+3. ViGEmBus  (installed separately, NOT redistributed by FH6 TC)
+   Copyright (c) 2016-2020 Nefarius Software Solutions e.U.
+   https://github.com/nefarius/ViGEmBus
+
+   The kernel driver that provides virtual game controllers. FH6 TC does not
+   include or redistribute it. Setup downloads the vendor's own signed
+   installer from the vendor's release page, and it is installed under its own
+   BSD 3-Clause license terms, reproduced in section 1 above.
+
+
+=============================================================================
+4. HidHide  (installed separately, NOT redistributed by FH6 TC)
+   Copyright (c) Eric Korff de Gidts
+   https://github.com/nefarius/HidHide
+
+   The kernel driver that hides a physical controller from applications, so
+   the game reads only the virtual controller. FH6 TC does not include or
+   redistribute it. Setup downloads the vendor's own signed installer from the
+   vendor's release page, and it is installed under its own MIT license terms,
+   in the same form reproduced in section 2 above.
+
+
+=============================================================================
+5. Python and the Python standard library, including Tk/Tcl
+   Copyright (c) 2001-2026 Python Software Foundation
+   https://www.python.org
+
+   INCLUDED IN THIS DISTRIBUTION. FH6 TC is built with PyInstaller, which
+   bundles the Python runtime and the Tk toolkit used for the interface.
+   Used under the PSF License Agreement, and for Tk/Tcl the Tcl/Tk license,
+   both of which are permissive and require retention of their copyright
+   notices.
+
+   Full texts:
+     https://docs.python.org/3/license.html
+
+
+=============================================================================
+Forza Horizon 6 is a trademark of Microsoft Corporation. FH6 TC is not
+made, endorsed, sponsored, or supported by Microsoft Corporation, Turn 10
+Studios, or Playground Games, and no affiliation is claimed or implied.

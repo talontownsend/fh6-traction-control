@@ -1,0 +1,9 @@
+# FH6 TC dependencies (Python 3.12, Windows)
+vgamepad          # virtual Xbox 360 pad. Also needs the ViGEmBus kernel
+                  # driver: https://github.com/nefarius/ViGEmBus/releases
+                  # (install, then reboot)
+
+# Everything else is the Python standard library; tkinter ships with
+# python.org installs. To hide the physical controller from the game (needed
+# for cuts to actually take effect) also install HidHide:
+#   https://github.com/nefarius/HidHide/releases  (install, then reboot)

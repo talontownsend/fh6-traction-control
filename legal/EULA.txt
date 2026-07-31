@@ -1,0 +1,162 @@
+FH6 TC
+END USER LICENSE AGREEMENT
+
+Version 1.0
+
+Please read this before installing. By installing or using FH6 TC ("the
+Software") you agree to these terms. If you do not agree, do not install it,
+and if you have paid for it, request a refund instead.
+
+The Software is provided by Talon Townsend ("we", "us").
+
+
+1. WHAT THE SOFTWARE DOES
+
+The Software reads telemetry that Forza Horizon 6 publishes over a local
+network port, and creates a virtual game controller that mirrors your physical
+controller with the throttle and brake reduced to limit wheel slip. It does
+not modify the game, its files, or its memory, and it does not read the game's
+memory. It only ever reduces your throttle and brake inputs; it cannot apply
+inputs you did not make.
+
+
+2. LICENSE GRANTED TO YOU
+
+We grant you a personal, non-exclusive, non-transferable license to install
+and use the Software on computers you own or control, for your own use.
+
+Where the Software is supplied as part of a paid subscription, this license
+lasts as long as that subscription is active. If the subscription ends, the
+license to continue using the Software ends with it.
+
+
+3. WHAT YOU MAY NOT DO
+
+You may not:
+
+  (a) sell, rent, sublicense, publish, or otherwise distribute the Software or
+      any part of it;
+  (b) share, publish, or resell any license key, account, or credential used
+      to obtain or activate the Software;
+  (c) remove or alter any copyright, license, or attribution notice;
+  (d) use the Software to build a competing product.
+
+Nothing in this section restricts any right you have under applicable law that
+cannot be limited by agreement, including any right to decompile the Software
+for interoperability purposes where the law expressly permits it.
+
+
+4. WHAT YOU OWN
+
+You keep everything you create with the Software, including any telemetry
+recordings it saves on your computer. We do not claim any rights over them,
+and the Software does not transmit them to us.
+
+
+5. THIRD PARTY COMPONENTS
+
+The Software includes and depends on software written by other people, used
+under their own licenses. See THIRD-PARTY-NOTICES.txt, installed alongside
+the Software, for the full notices.
+
+The two kernel drivers the Software needs, ViGEmBus and HidHide, are separate
+products by Nefarius Software Solutions e.U. They are installed by their own
+installers under their own license terms, and we do not grant you any rights
+to them.
+
+
+6. IMPORTANT: RISK OF USING THIRD PARTY SOFTWARE WITH A GAME
+
+Please read this section carefully. It describes a real risk that you accept
+by using the Software.
+
+The Software is not made, endorsed, or supported by the publisher or developer
+of Forza Horizon 6, or by Microsoft.
+
+Games and gaming platforms commonly have terms of service, codes of conduct,
+or community standards that restrict the use of third party software
+alongside the game. Those terms are set by the game's publisher and platform,
+not by us, and they can change at any time without notice. Depending on how a
+publisher interprets its own rules, using software of this kind may breach
+them.
+
+The consequences of such a breach are decided by the publisher or platform,
+not by us, and can include warnings, temporary suspension, permanent
+termination of your game account, loss of purchased content, removal of your
+leaderboard entries, and restrictions applied to your device or hardware that
+may affect other accounts used on the same machine.
+
+You are responsible for deciding whether to use the Software and for
+understanding the rules that apply to your own accounts. You use the Software
+at your own risk.
+
+We make no promise that the Software is permitted by any publisher or
+platform, that it will not be detected, or that it will keep working after any
+game or system update. We are not responsible for any action a publisher or
+platform takes against you or your accounts, and such action is not grounds
+for a claim against us.
+
+If any of this is unacceptable to you, do not use the Software.
+
+
+7. NO WARRANTY
+
+The Software is provided "as is", without warranty of any kind, express or
+implied, including any implied warranties of merchantability, fitness for a
+particular purpose, and non-infringement. We do not warrant that the Software
+will be uninterrupted, error free, compatible with your hardware, or fit for
+any competitive purpose.
+
+The Software influences the controls of a simulated vehicle in a video game.
+It is not a safety system, it is not for use in any real vehicle, and it must
+not be relied upon for any purpose where failure could cause injury or damage.
+
+
+8. LIMITATION OF LIABILITY
+
+To the maximum extent permitted by law, we are not liable for any indirect,
+incidental, special, consequential, or punitive damages, or for any loss of
+data, accounts, purchased content, progress, revenue, or goodwill, arising
+from or relating to the Software.
+
+To the maximum extent permitted by law, our total liability for all claims
+relating to the Software is limited to the greater of the amount you actually
+paid us for the Software in the twelve months before the claim, or ten US
+dollars.
+
+Some jurisdictions do not allow the exclusion of certain warranties or the
+limitation of certain damages. Where that is the case, the exclusions and
+limitations above apply only to the extent permitted, and nothing here affects
+your statutory rights as a consumer.
+
+
+9. UPDATES, CHANGES, AND TERMINATION
+
+We may update the Software, and we may change or discontinue it. We may change
+these terms for future versions; the terms you accepted continue to apply to
+the version you installed.
+
+This license ends automatically if you breach it, and, for subscription
+licenses, when the subscription ends. On termination you must stop using the
+Software and remove it from your computers.
+
+You may end this agreement at any time by uninstalling the Software.
+
+
+10. GOVERNING LAW
+
+This agreement is governed by the laws of the State of Idaho, United States of
+America, without regard to its conflict of law rules.
+
+Nothing in this section removes any protection that the law of your own
+country or state gives you as a consumer, where that law applies to you
+regardless of this agreement.
+
+
+11. THE WHOLE AGREEMENT
+
+This is the entire agreement between you and us about the Software. If any
+part of it is found unenforceable, the rest continues to apply.
+
+
+Contact: https://github.com/talontownsend/fh6-traction-control
